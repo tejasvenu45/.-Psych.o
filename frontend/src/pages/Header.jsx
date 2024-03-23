@@ -1,5 +1,5 @@
 import Zoom from "react-reveal/Zoom";
-
+import Bounce from "react-reveal/Zoom";
 import MainLogo from "./icons/MainLogo.svg";
 import { Link, Outlet } from "react-router-dom";
 function Header() {
