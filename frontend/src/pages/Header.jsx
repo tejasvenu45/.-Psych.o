@@ -20,7 +20,7 @@ function Header() {
                 <Link to="/">Home</Link>
               </button>
               <button className="btn btn-success justify- w-24 mr-8 text-xl hover:scale-150">
-                <Link to="/events">Events</Link>
+                <Link to="/quiz">Quiz</Link>
               </button>
               <button className="btn btn-warning justify-end ml-2 text-xl hover:scale-150">
                 <Link to="/blogs">Blogs</Link>
