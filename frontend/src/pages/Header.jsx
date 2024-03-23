@@ -5,7 +5,7 @@ import { Link, Outlet } from "react-router-dom";
 function Header() {
   return (
     <>
-      <nav className="flex flex-row gap-96 bg-gray-800">
+      <nav className="flex flex-row gap-64 bg-gray-800 fixed top-0 left-0 p-4 z-10 w-full ">
         <div className="border-2 w-18 h-20 border-blue-600 bg-purple-700 flex flex-col items-center justify-center m-10 mr-48">
           <img src={MainLogo} alt="MainLogo" className="w-16 h-18" />
         </div>

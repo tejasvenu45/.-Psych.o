@@ -4,7 +4,7 @@ import Footer from "./Footer";
 import Background from "./icons/bgNode.svg";
 import Bounce from "react-reveal/Bounce";
 import Fade from "react-reveal/Fade"
-
+import { Link } from "react-router-dom";
 const Layout = () => {
   const [text, setText] = useState("");
   const message = "Providing you with the First Aid Mental Health Care Service";
@@ -26,16 +26,19 @@ const Layout = () => {
 
   return (
     <>
-      <div className="hero min-h-screen bg-base-200">
+      <div className="hero min-h-screen bg-gray-700 text-white mt-36">
         <div className="hero-content flex-col lg:flex-row">
           <Bounce>
-          <img src={Background} className="max-w-sm rounded-lg shadow-2xl" /></Bounce>
+          <img src={Background} className="max-w-sm rounded-lg shadow-2xl bg-slate-300 border-8 border-black" /></Bounce>
           <div>
+            <Bounce>
             <Fade>
             <h1 className="text-5xl font-bold">Mental Health ChatBot</h1>
-            </Fade>
+            </Fade></Bounce>
             <p className="py-6">{text}</p>
-            <button className="btn btn-primary">Get Started</button>
+            <button className="btn btn-primary">
+            <Link to="/chat">Hello World</Link>         
+                 </button>
           </div>
         </div>
       </div>

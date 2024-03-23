@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./pages/Header.jsx";
 import Signup from "./pages/Signup.jsx";
 import Login from "./pages/Login.jsx";
+import Chat from "./pages/Chat.jsx";
 function App() {
 
   return (
@@ -15,6 +16,8 @@ function App() {
           <Route index element={<Layout />} />
           <Route path="login" element={<Login />} />
           <Route path="signup" element={<Signup />} />
+          <Route path="chat" element={<Chat />} />
+
           
         </Route>
       </Routes>
