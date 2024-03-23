@@ -8,7 +8,6 @@ export default {
     extend: {
       backgroundImage: {
         'hero-pattern': "url('./src/pages/icons/bgNode.svg')",
-        
       }
     },
   },
